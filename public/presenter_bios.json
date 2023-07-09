@@ -1,0 +1,30 @@
+{
+    "a": {
+        "name": "A Smith",
+        "biography": "yadda yadda",
+        "urls": [
+            {
+                "name": "email",
+                "url": "mailto:a@hotmail.com"
+            },
+            {
+                "name": "A's super cool web site",
+                "url": "www.a.com"
+            }
+        ]
+    },
+    "b": {
+      "name": "B Jones",
+      "biography": "yadda yadda",
+      "urls": [
+          {
+              "name": "email",
+              "url": "mailto:b@live.com"
+          },
+          {
+              "name": "B's super cool web site",
+              "url": "www.b.com"
+          }
+      ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "Yoga": {
+        "title": "Yoga",
+        "presenters": "a,b",
+        "description": "Description of yoga"
+    },
+    "Cooking": {
+      "title": "Cooking",
+      "presenters": "c,d",
+      "description": "Description of cooking"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "friday ": [
+    {
+      "time": "9:00-9:50",
+      "location": "Lewis Dick",
+      "name": "Yoga"
+    },
+    {
+      "time": "10-12",
+      "location": "Everheart",
+      "name": "Cooking"
+    }
+  ],
+  "saturday ": [
+    {
+      "time": "9:00-9:50",
+      "location": "Lewis Dick",
+      "name": "Yoga"
+    },
+    {
+      "time": "10-12",
+      "location": "Everheart",
+      "name": "Cooking"
+    }
+  ]
+}
