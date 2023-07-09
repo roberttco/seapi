@@ -1,26 +1,259 @@
 {
-  "friday ": [
+  "Thursday": [
     {
-      "time": "9:00-9:50",
-      "location": "Lewis Dick",
-      "name": "Yoga"
+      "4:00-4:30 p.m.": [
+        {
+          "name": "New Family Orientation",
+          "location": "Assembly Hall C"
+        }]
     },
     {
-      "time": "10-12",
-      "location": "Everheart",
-      "name": "Cooking"
+      "5:00-6:30 p.m.": [
+        {
+          "location": "Outside Assembly Hall",
+          "name": "BBQ"
+        }]
+    },
+    {
+      "7:00-8:00 p.m.": [
+        {
+          "location": "Assembly Hall C",
+          "name": "Opening Ceremony"
+        }]
+    },
+    {
+      "8:00-8:45 p.m.": [
+        {
+          "location": "Assembly Hall C",
+          "name": "Volunteer Training"
+        }
+      ]}
+  ],
+  "Friday ": [
+    {
+      "8:00-8:15 a.m.": [
+        {
+          "name": "Drop off 1st-12th Grade Campers",
+          "location": "Assembly Hall Lobby"
+        },
+        {
+          "name": "Drop off Pre-K & K Campers",
+          "location": "Aspen Glen"
+        }]
+    },
+    {
+      "8:00-9:00 a.m.": [
+        {
+          "location": "Assembly Hall",
+          "name": "Market and Coffee Cafe Open"
+        }]
+    },
+    {
+      "8:30-10:30 a.m.": [
+        {
+          "location": "Meet Outside Lewis Dick Hall",
+          "name": "Hike to Bible Point"
+        }]
+    },
+    {
+      "9:00-10:00 a.m.": [
+        {
+          "location": "Lewis Dick Hall",
+          "name": "Connection Circles"
+        }]
+    },
+    {
+      "10:15-11:45 a.m.": [
+        {
+          "name": "Adult Adoptee Panel",
+          "location": "Lewis Dick Hall"
+        },
+        {
+          "name": "Filipino Healing with Singing Bowls",
+          "location": "Kansas"
+        },
+        {
+          "name": "Thai Fruit Carving",
+          "location": "Assembly Hall A"
+        }]
+    },
+    {
+      "12:00-1:00 p.m.": [
+        {
+          "name": "Lunch",
+          "location": "Outside Assembly Hall"
+        },
+        { "name": "Pick up Pre-K and K campers",
+          "location": "Aspen Glen"
+        }]
+    },
+    {
+      "1:10-2:30 p.m.": [
+        {
+          "name": "Courageous Conversations",
+          "location": "Lewis Dick Hall"
+        },
+        {
+          "name": "HeArt Talks for Parents",
+          "location": "Kansas"
+        },
+        {
+          "name": "Vietnamese Cooking: Gettin’ Saucy with ATG",
+          "location": "Everhart Cabin"
+        }]
+    },
+    {
+      "2:40-4:00": [
+        {
+          "name": "Adult Adoptee Panel",
+          "location": "Lewis Dick Hall"
+        },
+        {
+          "name": "Teen Transitions",
+          "location": "Kansas"
+        },
+        {
+          "name": "Pacific Islander Dance",
+          "location": "Assembly Hall C"
+        }]
+    },
+    {
+      "4:10 p.m.": [
+        {
+          "name": "Pick up 1st-12th Grade Campers",
+          "location": "Assembly Hall Lobby"
+        },
+        {
+          "name": "Pick up Pre-K & K Campers",
+          "location": "Aspen Glen"
+        }]
+    },
+    {
+      "7:00-8:30 p.m.": [
+        {
+          "name": "Ice Cream Social",
+          "location": "Outside Assembly Hall"
+        }]
+    },
+    {
+      "9:00p.m.": [
+        {
+          "name": "Pick up 5th-8th Grade Campers",
+          "location": "Skating Rink"
+        }]
+    },
+    {
+      "9:30 p.m.": [
+        {
+          "name": "Pick up 9th-12th Grade Campers",
+          "location": "Assembly Hall A"
+        }]
     }
   ],
-  "saturday ": [
+  "Saturday": [
     {
-      "time": "9:00-9:50",
-      "location": "Lewis Dick",
-      "name": "Yoga"
+      "8:40-8:50 a.m.": [
+        {
+          "name": "Drop off 1st-12th Grade Campers",
+          "location": "Assembly Hall Lobby"
+        },
+        {
+          "name": "Drop off Pre-K & K Campers",
+          "location": "Aspen Glen"
+        }]
     },
     {
-      "time": "10-12",
-      "location": "Everheart",
-      "name": "Cooking"
+      "9:00-10:20 a.m.": [
+        {
+          "name": "Yoga",
+          "location": "Lewis Dick Hall"
+        },
+        {
+          "name": "Filipino Healing with Singing Bowls",
+          "location": "Kansas"
+        },
+        {
+          "name": "Vietnamese Cooking: Gettin’ Saucy with ATG",
+          "location": "Everhart Cabin"
+        }]
+    },
+    {
+      "10:30-11:50 a.m.": [
+        {
+          "name": "Thai Fruit Carving",
+          "location": "Lewis Dick Hall"
+        },
+        {
+          "name": "Teen Transitions",
+          "location": "Kansas"
+        }]
+    },
+    {
+      "12:00-1:00 p.m.": [
+        {
+          "name": "Lunch",
+          "location": "Outside Assembly Hall"
+        },
+        {
+          "name": "Pick up Pre-K and K campers",
+          "location": "Aspen Glen"
+        }]
+    },
+    {
+      "1:10-2:20 p.m.": [
+        {
+          "name": "Parent-to-Parent Buzz Session",
+          "location": "Lewis Dick Hall"
+        }]
+    },
+    {
+      "2:30 p.m.": [
+        {
+          "name": "Pick up 1st-12th Grade Campers",
+          "location": "Assembly Hall Lobby"
+        },
+        {
+          "name": "Pick up Pre-K & K Campers",
+          "location": "Aspen Glen"
+        }]
+    },
+    {
+      "2:40-3:00 p.m.": [
+        {
+          "name": "Songkran",
+          "location": "Jacques' Place"
+        }]
+    },
+    {
+      "3:00-7:00 p.m.": [
+        {
+          "name": "Family Time"
+        }]
+    },
+    {
+      "7:00-10:00 p.m.": [
+        {
+          "name": "Gala",
+          "location": "Assembly Hall C"
+        }]
+    }
+  ],
+  "Sunday": [
+    {
+      "By 10:00 a.m.": [
+        {
+          "name": "Check-out of lodge rooms and cabins"
+        }],
+      "10:00-10:30 a.m.": [
+        {
+          "name": "Autographs & Goodbyes",
+          "location": "Assembly Hall C"
+        }],
+      "10:30-11:00 a.m.": [
+        {
+          "name": "Closing Ceremony",
+          "location": "Assembly Hall C"
+        }]
     }
   ]
 }
