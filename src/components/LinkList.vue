@@ -1,7 +1,7 @@
 <template>
   <v-list density="compact">
     <v-list-item 
-    v-for="(item,i) in timeline_data"
+    v-for="(item,i) in links"
     :key = "i"
     :value="item"
     :to="item.link"
@@ -32,20 +32,13 @@ export default {
       type: String,
       default: "ExpandingTimesList"
     },
-    timeline_data: {
+    links: {
       type: Array,
       default: (function () { return [{}] })
     }
   },
   data: () => ({
   }),
-  methods: {
-    navigate(arg) {
-      const loc = { "name": arg }
-      alert(arg)
-      this.$router.push(arg)
-    }
-  }
 }
 </script>
 

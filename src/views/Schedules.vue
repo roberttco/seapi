@@ -6,40 +6,21 @@
     <ScheduleCarousel :group="this.$route.query.group"></ScheduleCarousel>
   </div>
   <div v-else>
-    <LinkList :timeline_data="schedule_data" />
+    <LinkList :links="appStore.schedule_groups" />
   </div>
 </template>
 
 <script setup>
 import LinkList from '../components/LinkList.vue'
 import ScheduleCarousel from '../components/ScheduleCarousel.vue'
+import { useAppStore } from '../store/app'
+
+const appStore = useAppStore()
+
 </script>
 
 <script>
 export default {
-  data: () => ({
-    group: "",
-    schedule_data: [
-      {
-        name: 'Adults',
-        link: '/schedules?group=adult'
-      },
-      {
-        name: 'Pre-K, K',
-        link: '/schedules?group=prek'
-      },
-      {
-        name: '1-4',
-        link: '/schedules?group=elementary'
-      }
-    ]
-  }),
-  methods:{
-    showgroup()
-    {
-      alert(this.$route.query.group)
-    }
-  },
-
+  data: () => ({})
 }
 </script>
