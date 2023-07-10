@@ -5,7 +5,7 @@
       SEAPI 2023
     </v-app-bar-title>
     <v-spacer></v-spacer>
-    <v-icon start>mdi-clock</v-icon> <div class="mr-5">{{ clockString }}</div> 
+    <!-- <v-icon start>mdi-clock</v-icon> <div class="mr-5">{{ clockString }}</div>  -->
   </v-app-bar>
   <v-navigation-drawer
     v-model="drawer"
@@ -60,16 +60,16 @@ export default {
   }),
 
   methods: {
-    setDateTime() {
-      const date = new Date();
-      this.clockString = date.toLocaleTimeString();
-    }
+    // setDateTime() {
+    //   const date = new Date();
+    //   this.clockString = date.toLocaleTimeString();
+    // }
   },
   beforeMount() {
-    this.timer = setInterval(this.setDateTime, 1000);
+    // this.timer = setInterval(this.setDateTime, 1000);
   },
   beforeUnmount() {
-    clearInterval(this.timer);
+    // clearInterval(this.timer);
   }
 }
 </script>

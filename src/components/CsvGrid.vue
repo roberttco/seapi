@@ -1,8 +1,6 @@
 <template>
-  <v-card>
-    <v-card-title>
-      {{ this.title }}
-      <v-spacer></v-spacer>
+  <div class="pa-2">
+  <h3 class="pa-3">{{ this.title }}</h3>
       <v-text-field
         v-model="search"
         prepend-icon="mdi-magnify"
@@ -11,9 +9,8 @@
         hide-details
         clearable
         persistent-clear
-        variant="outlined"
       ></v-text-field>
-    </v-card-title>
+  <div class="ma-1 pl-3 bg-amber">Click/tap on headings to sort.<br>Scroll or rotate to see more.</div>
   <v-data-table
     :headers="headers"
     :items="rows"
@@ -23,7 +20,7 @@
     item-value="name"
     density="compact"
     ></v-data-table>
-  </v-card>
+  </div>
 </template>
 
 <script>
